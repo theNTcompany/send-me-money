@@ -1,5 +1,10 @@
 ## Opening the web interface
-After you have connected to haxagon VPN and started the challenge, the web UI can be opened on http://<ip:Loading...>
+<if ip>
+After you have connected to haxagon VPN and started the challenge, the web UI can be opened on http://<ip>
+</if>
+<if ip="false">
+The app can be accessed on port 80 once it is started.
+</if>
 
 ## Signing in
 You can sign in into the web application on `/sign/in` route. You can also click `My account` button on top right.
